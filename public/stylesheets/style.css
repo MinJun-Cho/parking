@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+
+div {
+  width: 100%;
+  height: inherit;
+  margin: 0 auto;
+  line-height: 100px;
+}
+
+#nav-menu {
+  color: white;
+}
+
+#ul-style {
+  list-style-type: none;
+
+}
+
+.name a {
+  position: absolute;
+  margin-left: 10%;
+  font-size: 40px;
+  font-family: Georgia, serif;
+  text-shadow: 6px 2px 2px gray;
+  font-weight: 900;
+  text-decoration: none;
+  color: white;
+}
+
+#ul-style li a {
+  position: relative;
+  float: right;
+  margin-right: 10%;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  width: 100%;
+  height: 1100px;
+  background: url(../images/park2.jpg) center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+#main-page {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 70%;
+  margin: 10% 0;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+h2 {
+  color: white;
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+#in-out span a {
+  color: white;
+  list-style-type: none;
+  float: left;
+  margin-left: 31%;
+  margin-top: 15%;
+  text-decoration: none;
+}
+
+#button1 {
+  width: 160px;
+  font-size: 35px;
+  cursor: pointer;
+
+}
+
+#button2 {
+  width: 160px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+#main-footer {
+  text-align: center;
+  margin: 20px auto;
+
+}
+
+#second-footer {
+  list-style-type: none;
+  line-height: 40px;
+}
+
+.footer {
+  font-size: 20px;
+}
+
+section {
+  margin: 0 auto;
+  text-align: center;
+}
+
+section ul {
+
+  display: inline-block;
+  width: 700px;
+  margin-top: 5%;
+}
+
+#s_ticket {
+  color: black;
+  font-size: 30px;
+}
+
+section ul li {
+  height: 50px;
+  border-bottom: 1px solid #333;
+  line-height: 50px;
+}
+
+section ul li:first-child {
+  border-top: 1px solid #333
+}
+
+
+input {
+  float: right;
+  margin-top: 12px;
+  width: 60%;
+  margin-left: -34px;
+  font-size: 20px;
+  margin-right: 60px;
+
+}
+
+span {
+  width: 20%;
+}
+
+select {
+  float: left;
+  margin-top: 12px;
+  margin-left: 28px;
+  font-size: 20px;
+  width: 55px;
+}
+
+#abcd {
+  display: block;
+  margin-top: 5%;
+}
+
+.span1 {
+  float: left;
+  margin-left: 50px;
+}
+
+button {
+  background: dodgerblue;
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 40px;
+  font-size: 1.6em;
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+
+button:hover {
+  background: #fff;
+  color: dodgerblue;
+}
+
+button:before,
+button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: dodgerblue;
+  transition: 400ms ease all;
+}
+
+button:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+button:hover:before,
+button:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #43A047;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.form .register-form {
+  display: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.container .info span .fa {
+  color: #EF3B3A;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

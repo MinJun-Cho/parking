@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>출차</title>
+    <link rel="stylesheet" href="/stylesheets/parking.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/parking.png" />
+</head>
+
+<body>
+    <header id="header">
+        <h1 id="header-second">출차 System</h1>
+
+    </header>
+    <main>
+        <article>
+            <strong>차량번호 입력 (출차 및 계산)</strong>
+            <div>
+                <ul>
+                    <li> 차량번호를 입력해주시면 됩니다.</li>
+                    <li> 차량번호를 잘못 입력하신 경우 출차를 하실 수 없습니다. 정확한 차량번호를 입력해주세요.</li>
+                    <li> 차량번호를 입력 하시고 요금확인 버튼을 누르시면 금액확인으로 넘어 갑니다.</li>
+                </ul>
+                <input type="text" id='outcar' placeholder="예시) 12가3456">
+                <div class='center'>
+                    <button id="open">요금확인</button>
+                    <div class='modal hidden'>
+                        <div class='modal_overlay'></div>
+                        <div class="modal_content">
+                            <h1>금액은</h1>
+                            <h1><span id="result"></span>원</h1>
+                            <h1>입니다.</h1>
+                            <h1>출차하시겠습니까?</h1>
+                            <button id='exit'>출차하기</button>
+                        </div>
+                    </div>
+                    <div id=outcartext></div>
+                </div>
+            </div>
+        </article>
+    </main>
+</body>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous" type="text/javascript">
+</script>
+<script src="javascripts/outcar.js"></script>
+
+</html>

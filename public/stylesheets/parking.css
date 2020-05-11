@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    border-bottom: 2px solid black;
+}
+
+#header-second {
+    margin: 0 50px;
+    padding: 10px 0;
+    font-size: 20px;
+    color: white;
+    letter-spacing: -0.35px;
+}
+
+main {
+    list-style-type: none;
+}
+
+strong {
+    font-size: 50px;
+}
+
+article {
+    margin: 50px 50px;
+    list-style-type: none;
+    line-height: 50px;
+}
+
+input {
+    margin: 20px 0;
+    width: 300px;
+    height: 33px;
+}
+
+
+button {
+    background: dodgerblue;
+    color: #fff;
+    border: none;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    text-decoration: none;
+}
+
+button:hover {
+    background: #fff;
+    color: dodgerblue;
+}
+
+button:before,
+button:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: dodgerblue;
+    transition: 400ms ease all;
+}
+
+button:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+button:hover:before,
+button:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+.center {
+    margin-top: 50px;
+}
+
+.modal{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_overlay {
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+
+.modal_content {
+    background-color: white;
+    position: relative;
+    padding: 50px 100px;
+    text-align: center;
+    top:0px;
+    border-radius: 15px;
+    width: 30%;
+    height: 50%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+h1 {
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#exit {
+    margin: 100px;
+}
