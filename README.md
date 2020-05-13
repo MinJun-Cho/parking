@@ -1,12 +1,11 @@
 # parking
 html + css + javascript + node.js + mysql을 이용 간단한 입출차가 가능한 주차장 구현
-<<<<<<< HEAD
 
 <br>
 <br>
 
 ## 개요
-* * * 
+
 ### **Front-end**
 
 Html + css + Javascript
@@ -24,7 +23,7 @@ mysql
 <br>
 
 ## 설계
-* * * 
+
 
 ### **시나리오설계**
 
@@ -59,7 +58,7 @@ ENGINE = InnoDB DEFAULT CHARSET=utf8;
 <BR>   
 
 ## 설명
-* * *    
+ 
  ![메인화면](https://user-images.githubusercontent.com/61219367/81782601-09e48d00-9535-11ea-82de-5d039e361ddc.png)
  메인화면
 
