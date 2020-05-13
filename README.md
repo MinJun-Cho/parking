@@ -1,5 +1,6 @@
 # parking
 html + css + javascript + node.js + mysql을 이용 간단한 입출차가 가능한 주차장 구현
+<<<<<<< HEAD
 
 <br>
 <br>
